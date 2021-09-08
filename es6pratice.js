@@ -114,7 +114,9 @@ class StudentCare {
 
 }
 
-1.
+
+
+1.// templat string 
 const address = ['boribari ,lalmonirhat sodor ,lalmonirhat.'];
 const kemonAchis = ['how are you friend'];
 const output = `amar moto ato shukhi noytu karo jibon ar ai ganti geyechen titu tar basa ${address} ar take se bolilo ${kemonAchis}`;
@@ -124,4 +126,45 @@ console.log(output);
 const add = (num1 , num2= 23) => num1 + num2 ; //defold value
 const sum =add(23);
 console.log(sum);
+// three digit gun
+const multiply = (num1 , num2, num3) => num1 * num2* num3 ;
+const result = multiply(2, 4, 4);
+console.log(result);
+//one disit
+const fiveTime = (num) => num * 5 ;
+const output = fiveTime(32);
+console.log(output);
+// paramitar nai 
+const getName = () => 'titu roy';
+const names = getName();
+console.log(names);
+
+
+
+
+/* array maltiply */
+const numbers =  [4, 5 ,8, 12, 65, 12,15];
+
+/*prothom */
+// const result = num => num *5;
+// const maltiply = numbers.map(result);
+// console.log(maltiply);
+
+/*second */
+const add = numbers.map(number => number * 5);
+console.log(add);
+
+
+
+const products = [
+    {namne : 'laptop', proce: '20000', color: 'block'},
+    {namne : 'phone', proce: '7000', color: 'block'},
+    {namne : 'watch', proce: '5000', color: 'red'},
+    {namne : 'watch', proce: '200', color: 'block'},
+]
+// const write = products.find(item => item.color == 'block');
+const result = products.find(item => item.proce == 5000);
+console.log(result);
+
+
 
